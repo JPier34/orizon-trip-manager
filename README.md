@@ -19,6 +19,10 @@ A decentralized trip booking platform built in Solidity. This contract allows pr
 
 ## ⚙️ Contract Overview
 
+## 🔩 Contract Address - Sepolia Testnet
+
+0x7D4b59790C20b0cF54942f7040935318b2EaAeA0
+
 ---
 
 ### 🧱 Main Contract
@@ -26,6 +30,7 @@ A decentralized trip booking platform built in Solidity. This contract allows pr
 **`TripManager.sol`**
 
 Uses an external struct library `TripLib.sol` to manage `Trip` data structure:
+
 ```solidity
 struct Trip {
     string name;
@@ -126,3 +131,4 @@ MIT License — Free to use, modify, and distribute.
 🧠 Author Notes
 Designed for decentralization, clarity, and maximum composability.
 Feel free to fork and expand the logic (e.g., add review/rating systems, NFT trip passes, off-chain oracle integrations).
+```
